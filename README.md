@@ -15,7 +15,7 @@ As I work toward becoming a DevOps engineer, I’m using this repo to:
 - practise real-world tasks through exercises  
 - build a reliable foundation for future tools like Docker, Kubernetes, and CI/CD pipelines  
 
-This repo is a record of what I’ve learned and applied — not a rewrite of a textbook.
+This repo is a record of what I’ve learned and applied not a rewrite of a textbook.
 
 ---
 
@@ -54,5 +54,5 @@ Each chapter includes both notes and exercises to reinforce the concepts.
 
 ## Closing Thoughts
 
-This repository is a snapshot of my growth — both in Linux fundamentals and in the habits required for DevOps engineering.  
+This repository is a snapshot of my growth both in Linux fundamentals and in the habits required for DevOps engineering.  
 It reflects consistency, structure, and a commitment to learning through doing.
