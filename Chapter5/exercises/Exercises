@@ -1,0 +1,21 @@
+
+1. Copy the /etc/services fi le to the /tmp directory. Open the /tmp/services file in vim, and search for the term WorldWideWeb. Change that to read World Wide Web. 
+
+2. Find the following paragraph in your /tmp/services fi le (if it is not there, choose a different paragraph) , and move it to the end of that fi le. # Note that it is presently the policy of IANA to assign a single well-known # port number for both TCP and UDP; hence, most entries here have two entries # even if the protocol doesn't support UDP operations. # Updated from RFC 1700, "Assigned Numbers" (October 1994). Not all ports # are included, only the more common ones. 
+
+3. Using ex mode, search for every occurrence of the term tcp (case-sensitive) in your /tmp/services fi le and change it to WHATEVER. 
+
+4. As a regular user, search the /etc directory for every file named passwd. Redirect error messages from your search to /dev/null. 
+
+5. Create a directory in your home directory called TEST. Create fi les in that directory named one, two, and three that have full read/write/execute permissions on for everyone (user, group, and other). Construct a find command to find those fi les and any other fi les that have write permission open to “others” from your home directory and below.
+
+6. Find fi les under the /usr/share/doc directory that have not been modified in more than 300 days. 
+
+7. Create a /tmp/FILES directory. Find all fi les under the /usr/share directory that are more than 5MB and less than 10MB and copy them to the /tmp/FILES directory. 
+
+8. Find every fi le in the /tmp/FILES directory, and make a backup copy of each fi le in the same directory. Use each file’s existing name, and just append .mybackup to create each backup file. 
+
+9. Install the kernel-doc package in Fedora or Red Hat Enterprise Linux. Using grep, search inside the files contained in the /usr/share/doc/kernel-doc* directory for the term e1000 (case-insensitive) and list the names of the fi les that contain that term. 
+
+10. Search for the e1000 term again in the same location, but this time list every line that contains the term and highlight the term in colour
+
