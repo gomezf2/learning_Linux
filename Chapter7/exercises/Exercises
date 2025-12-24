@@ -1,0 +1,36 @@
+
+
+1. Create a script in your $HOME/bin directory called myownscript. When the script
+runs, it should output information that appears as follows:
+Today is Sat Jan 4 15:45:04 EST 2020.
+You are in /home/joe and your host is abc.example.com.
+Of course, you need to read in your current date/time, current working directory,
+and hostname. Also, include comments about what the script does and indicate
+that the script should run with the /bin/bash shell.
+
+
+2. Create a script that reads in three positional parameters from the command line,
+assigns those parameters to variables named ONE, TWO, and THREE, respectively,
+and outputs that information in the following format:
+There are X parameters that include Y.
+The first is A, the second is B, the third is C.
+Replace X with the number of parameters and Y with all parameters entered. Then
+replace A with the contents of variable ONE, B with variable TWO, and C with vari-
+able THREE.
+
+3. Create a script that prompts users for the name of the street and town where they
+grew up. Assign town and street to variables called mytown and mystreet, and
+output them with a sentence that reads as shown below (of course, $mystreet and
+$mytown will appear with the actual town and street the user enters):
+The street I grew up on was $mystreet and the town was
+$mytown
+Part II: Becoming a Linux Power User
+164
+
+
+4. Create a script called myos that asks the user, “What is your favorite operating
+system?” Output an insulting sentence if the user types “Windows” or “Mac.”
+Respond “Great choice!” if the user types “Linux.” For anything else, say “Is <what
+is typed in> an operating system?”
+5. Create a script that runs through the words moose, cow, goose, and sow through a
+for loop. Have each of those words appended to the end of the line “I have a. . . .”
